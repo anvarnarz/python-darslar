@@ -1,3 +1,15 @@
+"""
+7/11/2020
+
+Dasturlash asoslari
+
+#04-dars: Oz'garuvchilar
+
+Muallif: Anvar Narzullaev
+
+Web sahifa: https://python.sariq.dev
+"""
+
 print("\"Nexia\", \"Tico\", 'Damas' ko'rganlar qilar havas")
 #1 5 ning 4-darajasi
 print('5 ning 4-darajasi', 5**4)
