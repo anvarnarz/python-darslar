@@ -27,7 +27,20 @@ taom = taomlar['ali']
 print(f"Alining sevimli taomi {taom}")
 
 python_izohli_lugati = {
-    'integer':"Butun son. Butun sonlarni ham o'zgaruvchida saqlash,\n ularning ustida qo'shish (+), ayirish (-),\n ko'paytirish(*), bo'lish (/) \n kabi arifmetik amalarni bajarish mumkin",
-    'float':"Pythonda o'nlik sonlar floating point numbers yoki qisqa qilib floats deyiladi.",
-    'string':"Matn, Pythondagi eng mashxur ma'lumot turlaridan biri."}
-print(python_izohli_lugati['integer'])
+    'integer':"Butun son",
+    'float':"O'nlik son",
+    'string':"Matn",
+    'list':"Ro'yxat",
+    'tuple':"O'zgarmas ro'yxat"}
+# print(python_izohli_lugati['tuple'])
+
+kalit = input("Kalit so'z kiriting:").lower()
+print(python_izohli_lugati.get(kalit,"Bunday so'z mavjud emas"))
+
+kalit = input("Kalit so'z kiriting:").lower()
+tarjima = python_izohli_lugati.get(kalit)
+if tarjima==None:
+    print("Bunday so'z mavjud emas")
+else:
+    print(f"{kalit.title()} so'zi {tarjima} deb tarjima qilinadi")
+    
