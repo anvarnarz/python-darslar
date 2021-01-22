@@ -54,8 +54,8 @@ def sontop_pc(x=10):
 def play(x=10):
     yana = True
     while yana:
-        taxminlar_user = sontop(x)
         taxminlar_pc = sontop_pc(x)
+        taxminlar_user = sontop(x)        
         
         if taxminlar_user>taxminlar_pc:
             print(f"Men {taxminlar_pc} taxmin bilan topdim va  yutdim!")
@@ -65,8 +65,7 @@ def play(x=10):
             print("Durrang!")
         yana = int(input("Yana o'ynaymizmi? Ha(1)/Yo'q(0):"))
             
-    
-    
+play()
     
     
     
