@@ -19,5 +19,5 @@ class User:
     def describe():
         pass
     
-    def get_email():
+    def get_name():
         pass
