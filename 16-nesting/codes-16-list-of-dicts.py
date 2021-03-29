@@ -105,4 +105,4 @@ for malibu in malibus:
         malibu['narh']=35000
     
 for malibu in malibus:
-    print(malibu)
+    print(malibu.values())

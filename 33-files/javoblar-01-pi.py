@@ -10,7 +10,7 @@ Muallif: Anvar Narzullaev
 Web sahifa: https://python.sariq.dev
 """
 
-import pickle
+# import pickle
 
 with open('amaliyot/pi_million_digits.txt') as file:
     pi = file.read()
@@ -22,7 +22,7 @@ pi = pi.replace(' ','')
 bdate = '31122000'
 print(bdate in pi)
 
-pi = float(pi) # matnni float (o'nlik) songa o'tkazamiz
+# pi = float(pi) # matnni float (o'nlik) songa o'tkazamiz
 
-with open('amaliyot/pi_float.dat','wb') as file:
-    pickle.dump(pi,file)
+# with open('amaliyot/pi_float.dat','wb') as file:
+#     pickle.dump(pi,file)

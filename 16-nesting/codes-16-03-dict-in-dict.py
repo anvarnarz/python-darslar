@@ -32,4 +32,4 @@ for ism, info in hamkasblar.items():
           f"Ma'lumoti: {info['malumot']}. \n"
           "Quyidagi dasturlash tillarini biladi:")
     for til in info['tillar']:
-        print(til.upper())
+        print(til.upper(), end=' ')
