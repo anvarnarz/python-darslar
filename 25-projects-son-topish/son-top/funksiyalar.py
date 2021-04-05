@@ -19,10 +19,11 @@ def sontop(x=10):
         taxminlar += 1
         taxmin = int(input(">>>"))
         if taxmin<tasodifiy_son:
-            print("Xato. Men o'ylagan son bundan kattaroq. Yana harakat qiling:", end="")
+            print("Kattaroq son ayting:", end="")
         elif taxmin>tasodifiy_son:
-            print("Xato. Men o'ylagan son bundan kichikroq. Yana harakat qiling:", end="")
+            print("Kichikroq son ayting:", end="")
         else:
+            print("Yutdingiz!")
             break
         
     print(f"Tabriklayman. {taxminlar} ta taxmin bilan topdingiz!")
