@@ -14,7 +14,7 @@ Web sahifa: https://python.sariq.dev
 # ko'paytmasi va bo'linmasini chiqaruvchi dastur
 a = float(input("Birinchi sonni kiriting: "))
 b = float(input("Ikkinchi sonni kiriting: "))
-print("a+b=", a+b)
-print("a-b=", a-b)
-print("axb=", a*b)
-print("a/b=", a/b)
+print(f"{a}+{b}=", a+b)
+print(f"{a}-{b}=", a-b)
+print(f"{a}x{b}=", a*b)
+print(f"{a}/{b}=", a/b)
