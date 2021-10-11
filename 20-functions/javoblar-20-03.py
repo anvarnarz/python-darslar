@@ -9,10 +9,12 @@ Muallif: Anvar Narzullaev
 
 Web sahifa: https://python.sariq.dev
 """
-def kattasi(x,y,z):
+
+
+def kattasi(x, y, z):
     max = x
-    if y>=max:
+    if y >= max:
         max = y
-    if z>=max:
+    if z >= max:
         max = z
     return max

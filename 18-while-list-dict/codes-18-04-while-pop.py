@@ -9,7 +9,7 @@ Muallif: Anvar Narzullaev
 
 Web sahifa: https://python.sariq.dev
 """
-talabalar = ['hasan', 'husan', 'olim', 'botir']
+talabalar = ["hasan", "husan", "olim", "botir"]
 baholangan_talabalar = {}
 while talabalar:
     talaba = talabalar.pop()

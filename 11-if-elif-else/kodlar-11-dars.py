@@ -13,7 +13,7 @@
 #     price = 5000
 # else:
 #     price = 10000
-    
+
 # print(f"Sizga kirish {price} so'm")
 
 # yosh = int(input('Yoshingiz nechida? '))
@@ -25,7 +25,7 @@
 #     price = 10000
 # else:
 #     price = 8000
-    
+
 # print(f"Sizga kirish {price} so'm")
 
 # yosh = int(input('Yoshingiz nechida? '))
@@ -37,7 +37,7 @@
 #     price = 10000
 # elif yosh>=65:
 #     price = 8000
-    
+
 # print(f"Sizga kirish {price} so'm")
 
 # kun = input("Bugun nima kun?>>>")
@@ -85,7 +85,7 @@
 # if assorti:
 #     print("Mijoz assorti oldi.")
 #     narh = narh + 15000
-    
+
 # print(f"Jami {narh} so'm")
 
 

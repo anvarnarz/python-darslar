@@ -1,5 +1,4 @@
-
-def isIn(text,word):
+def isIn(text, word):
     toReturn = True
     word = list(word)
     for t in text:
@@ -9,13 +8,15 @@ def isIn(text,word):
             toReturn = False
     return toReturn
 
-def findMatches(word,allWords):
+
+def findMatches(word, allWords):
     matches = []
     for w in allWords:
-        if len(w)<=len(word) and isIn(w,word) and w!=word:
+        if len(w) <= len(word) and isIn(w, word) and w != word:
             matches.append(w)
     return matches
 
+
 if __name__ == "__main__":
-    print(isIn('salom','assalom'))
-    print(isIn('salom','alaykum'))
+    print(isIn("salom", "assalom"))
+    print(isIn("salom", "alaykum"))

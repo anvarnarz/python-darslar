@@ -11,7 +11,7 @@ Web sahifa: https://python.sariq.dev
 """
 import json
 
-filename = 'bemor.json'
+filename = "bemor.json"
 with open(filename) as f:
     bemor = json.load(f)
 

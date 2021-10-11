@@ -19,8 +19,8 @@ Web sahifa: https://python.sariq.dev
 ## try-except
 # yosh = input("Yoshingizni kiriting: ")
 # try:
-#     yosh = int(yosh)  
-#     print(f"Siz {2021-yosh} yilda tug'ilgansiz")  
+#     yosh = int(yosh)
+#     print(f"Siz {2021-yosh} yilda tug'ilgansiz")
 # except ValueError:
 #     print("Butun son kiritmadingiz")
 
@@ -28,7 +28,7 @@ Web sahifa: https://python.sariq.dev
 # print("Dastur Tugadi!")
 # yosh = input("Yoshingizni kiriting: ")
 # try:
-#     yosh = int(yosh)    
+#     yosh = int(yosh)
 # except ValueError:
 #     print("Butun son kiritmadingiz")
 # else:
@@ -39,7 +39,7 @@ Web sahifa: https://python.sariq.dev
 #    y/(x-5)
 # except ZeroDivisionError:
 #     print("0 ga bo'lib bo'lmaydi")
-       
+
 # mevalar = ['olma','anor','anjir','uzum']
 # try:
 #     print(mevalar[7])
@@ -67,7 +67,7 @@ Web sahifa: https://python.sariq.dev
 #         text = f.read()
 # except FileNotFoundError:
 #     print(f"Kechirasiz, {filename} fayli mavjud emas. Bosh fayl tanlang.")
-        
+
 # n = input("Butun son kiriting: ")
 # try:
 #     n = int(n)
@@ -84,21 +84,21 @@ Web sahifa: https://python.sariq.dev
 # for filename in files:
 #     try:
 #         with open(filename) as f:
-#             talaba = json.load(f)        
+#             talaba = json.load(f)
 #     except FileNotFoundError:
 #         print(f"{filename} mavjud emas")
 #     else:
 #         print(talaba['ism'])
-#         # fayl ustida turli amallar 
+#         # fayl ustida turli amallar
 
 # import json
 # files = ['talaba1.json','talaba2.json','talaba3.json','talaba4.json']
 # for filename in files:
 #     try:
 #         with open(filename) as f:
-#             talaba = json.load(f)        
+#             talaba = json.load(f)
 #     except FileNotFoundError:
 #         pass
 #     else:
 #         print(talaba['ism'])
-#         # fayl ustida turli amallar 
+#         # fayl ustida turli amallar

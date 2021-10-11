@@ -10,15 +10,17 @@ Muallif: Anvar Narzullaev
 Web sahifa: https://python.sariq.dev
 """
 
-talabalar = ['ali', 'vali', 'hasan', 'husan']
+talabalar = ["ali", "vali", "hasan", "husan"]
+
 
 def bahola(ismlar):
     baholar = {}
     for ism in ismlar:
         baho = input(f"Talaba {ism.title()}ning bahosini kiriting: ")
-        baholar[ism]=baho
+        baholar[ism] = baho
     return baholar
-        
+
+
 baholar = bahola(talabalar)
 print(baholar)
 print(talabalar)

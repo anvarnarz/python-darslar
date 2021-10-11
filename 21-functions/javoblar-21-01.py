@@ -9,10 +9,13 @@ Muallif: Anvar Narzullaev
 
 Web sahifa: https://python.sariq.dev
 """
+
+
 def katta_harf(matnlar):
     for i in range(len(matnlar)):
-        matnlar[i]=matnlar[i].title()   
+        matnlar[i] = matnlar[i].title()
 
-ismlar = ['ali', 'vali', 'hasan', 'husan']
+
+ismlar = ["ali", "vali", "hasan", "husan"]
 katta_harf(ismlar)
 print(ismlar)

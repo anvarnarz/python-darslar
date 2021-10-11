@@ -11,6 +11,7 @@ Web sahifa: https://python.sariq.dev
 """
 while True:
     book = input("Yaxshi koʻrgan kitobingizni kiriting (to'xtash uchun Enter bosing): ")
-    if not book: break
-    with open('amaliyot/books.txt','a') as file:
-        file.write(book+'\n')
+    if not book:
+        break
+    with open("amaliyot/books.txt", "a") as file:
+        file.write(book + "\n")

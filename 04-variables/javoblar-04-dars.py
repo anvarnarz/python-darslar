@@ -21,8 +21,8 @@ print(xabar)
 # class den nomlangan o'zgaruvchi yarating, unga biror qiymat bering va konsolga chiqaring (siz kutgan natija chiqdimi?)
 # O'zgaruvchini class deb nomlash mumkin emas, sababi class bu maxsus kalit so'z.
 
-#Quyidagi kodni bajaring
+# Quyidagi kodni bajaring
 radius = 5
 pi = 3.14159
-aylana_yuzi = pi * radius**2
-print("Radiusi" , radius, "ga teng aylananing yuzi=", aylana_yuzi)
+aylana_yuzi = pi * radius ** 2
+print("Radiusi", radius, "ga teng aylananing yuzi=", aylana_yuzi)

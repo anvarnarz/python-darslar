@@ -12,7 +12,7 @@ Web sahifa: https://python.sariq.dev
 import math
 
 # def nom(argument):
-    # return ifoda
+# return ifoda
 
 # uzunlik = lambda pi, r : 2*pi*r
 # print(uzunlik(math.pi,10))
@@ -22,10 +22,9 @@ import math
 
 
 def daraja(n):
-    return lambda x : x**n
+    return lambda x: x ** n
+
 
 kvadrat = daraja(2)
 kub = daraja(3)
-print(f"3-ning kvadrati {kvadrat(3)} ga, "
-      f"kubi {kub(3)} ga teng")
-    
+print(f"3-ning kvadrati {kvadrat(3)} ga, " f"kubi {kub(3)} ga teng")

@@ -11,7 +11,7 @@ Web sahifa: https://python.sariq.dev
 """
 
 #!!! Quyidagi usul tavsiya qilinmaydi
-file = open('pi.txt')
+file = open("pi.txt")
 PI = file.read()
 print(PI)
 file.close()

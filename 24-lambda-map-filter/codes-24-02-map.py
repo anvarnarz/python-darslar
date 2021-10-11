@@ -9,9 +9,9 @@ Muallif: Anvar Narzullaev
 
 Web sahifa: https://python.sariq.dev
 """
-from math import sqrt # sqrt - kvadrat ildiz
+from math import sqrt  # sqrt - kvadrat ildiz
 
-sonlar = list(range(11)) # 0 dan 10 gacha sonlar ro'yxati
+sonlar = list(range(11))  # 0 dan 10 gacha sonlar ro'yxati
 # ildizlar = list(map(sqrt,sonlar))
 # print(ildizlar)
 
@@ -22,18 +22,14 @@ sonlar = list(range(11)) # 0 dan 10 gacha sonlar ro'yxati
 
 # print(list(map(daraja2,sonlar)))
 
-kvadratlar = list(map(lambda x:x*x,sonlar))
+kvadratlar = list(map(lambda x: x * x, sonlar))
 # print(kvadratlar)
 
 
 a = [4, 5, 6]
 b = [7, 8, 9]
-a_plus_b = list(map(lambda x,y:x+y,a,b))
+a_plus_b = list(map(lambda x, y: x + y, a, b))
 print(a_plus_b)
 
 # ismlar = ['hasan','husan','olim','umid']
 # print(list(map(lambda matn:matn.upper(),ismlar)))
-
-
-
-    

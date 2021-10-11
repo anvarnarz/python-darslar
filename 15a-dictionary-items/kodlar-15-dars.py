@@ -62,12 +62,12 @@ Web sahifa: https://python.sariq.dev
 # for buyum in bozorlik:
 #     if buyum not in mahsulotlar:
 #         print(f"Iltimos, do'koningizga {buyum} ham olib keling")
-        
+
 # # LUG'AT ELEMENTLARINI TARTIB BILAN CHIQARISH
-# print("Do'konimizdagi mahsulotlar:")    
+# print("Do'konimizdagi mahsulotlar:")
 # for mahsulot in sorted(mahsulotlar):
 #     print(mahsulot.title())
-    
+
 # # .values()
 # print(telefonlar.values())
 
@@ -86,13 +86,13 @@ Web sahifa: https://python.sariq.dev
 #     'hamida':'galaxy s9',
 #     'maryam':'huawei p30',
 #     'tohir':'iphone x',
-#     'umar':'iphone x'    
+#     'umar':'iphone x'
 #     }
 
 # print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
 # for tel in telefonlar.values():
 #     print(tel)
-    
+
 # # set
 # print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
 # for tel in set(telefonlar.values()):

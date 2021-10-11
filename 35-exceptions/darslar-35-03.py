@@ -13,7 +13,6 @@ while True:
     yosh = input("Yoshingizni kiriting: ")
     if yosh.isdigit():
         yosh = int(yosh)
-        break        
+        break
 
 print(f"Siz {2021-yosh} yilda tug'ilgansiz")
-

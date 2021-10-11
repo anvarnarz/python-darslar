@@ -14,5 +14,6 @@ Web sahifa: https://python.sariq.dev
 def tyil_hisobla(ism, yosh):
     """Foydalanuvchi tugilgan yilini hisoblovchi funksiya"""
     print(f"{ism.title()} {2020-yosh}-yilda tug'ilgan")
-    
-tyil_hisobla('olim',32)
+
+
+tyil_hisobla("olim", 32)

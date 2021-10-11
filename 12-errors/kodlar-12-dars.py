@@ -14,8 +14,8 @@ Web sahifa: https://python.sariq.dev
 # print("Hello World!"
 # print("Assalom alaykum!")
 
-#IndentationError
- # print("Hello World!")
+# IndentationError
+# print("Hello World!")
 
 # print("O'ngacha sanaymiz")
 # for n in range(10):
@@ -27,7 +27,7 @@ Web sahifa: https://python.sariq.dev
 # else:
 #     print("Manfiy son")
 
-#TypeError
+# TypeError
 # son = input("Istalgan son kiriting: ")
 # print(f"{son} ning kvadrati {son**2} ga teng")
 
@@ -37,7 +37,7 @@ Web sahifa: https://python.sariq.dev
 # for meva in mevalar:
 #     print(meva)
 
-#ValueError
+# ValueError
 
 # son = int(input("Istalgan son kiriting: "))
 # if son>=0:
@@ -49,11 +49,11 @@ Web sahifa: https://python.sariq.dev
 # mevalar = ['olma','anor','uzum']
 # print(mevalar[2])
 
-#ZeroDivisionError
+# ZeroDivisionError
 # x, y = 50, 50
 # z = 250/(x-y)
 
-#Mantiqiy xatolar
+# Mantiqiy xatolar
 # radius = 5
 # pi = 4.14
 # aylana_yuzi = pi*radius**2
@@ -66,5 +66,4 @@ Web sahifa: https://python.sariq.dev
 # mevalar = ['olma','uzum','nok','anor','anjir']
 # for meva in mevalar:
 #     print(meva)
-#     print("Dastur tugadi")    
-
+#     print("Dastur tugadi")

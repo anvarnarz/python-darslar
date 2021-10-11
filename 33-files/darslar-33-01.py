@@ -9,22 +9,22 @@ Muallif: Anvar Narzullaev
 
 Web sahifa: https://python.sariq.dev
 """
-with open('pi.txt') as file:
+with open("pi.txt") as file:
     pi = file.read()
-  
+
 print(pi)
 
 pi = pi.rstrip()
-pi = pi.replace('\n','')
+pi = pi.replace("\n", "")
 pi = float(pi)
 print(pi)
 
 
-filename = 'data/talabalar.txt'
+filename = "data/talabalar.txt"
 with open(filename) as file:
     for line in file:
         print(line)
-        
+
 with open(filename) as file:
     talabalar = file.readlines()
 

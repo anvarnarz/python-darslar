@@ -10,12 +10,12 @@ Muallif: Anvar Narzullaev
 Web sahifa: https://python.sariq.dev
 """
 try:
-     x = int( input( "son kiriting: " ) )
-     y = int( input( "yana son kiriting: " ) )
-     print( x, '/', y, '=', x/y )     
+    x = int(input("son kiriting: "))
+    y = int(input("yana son kiriting: "))
+    print(x, "/", y, "=", x / y)
 except ZeroDivisionError:
-     print( "0 ga bo'lib bo'lmaydi" )
+    print("0 ga bo'lib bo'lmaydi")
 except ValueError:
-     print( "Bu son emas" )
+    print("Bu son emas")
 except:
-     print( "Xato yuz berdi!" )
+    print("Xato yuz berdi!")

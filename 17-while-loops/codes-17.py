@@ -19,11 +19,11 @@ height = input("Bo'yingiz necha metr? ")
 height = float(height)
 
 # while()
-son = 1 # son ga 1 qiymatini beramiz
-while son<=5: # toki son 5 dan kichik yoki teng ekan...
-    print(son, end=' ') # son ni konsolga chiqaramiz
+son = 1  # son ga 1 qiymatini beramiz
+while son <= 5:  # toki son 5 dan kichik yoki teng ekan...
+    print(son, end=" ")  # son ni konsolga chiqaramiz
     son = son + 1
-    #son += 1 # songa 1 qo'shamiz
+    # son += 1 # songa 1 qo'shamiz
 
 
 # # while and input
@@ -44,7 +44,7 @@ while son<=5: # toki son 5 dan kichik yoki teng ekan...
 # savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
 # ishora = True
 # while ishora:
-#     qiymat = input(savol)    
+#     qiymat = input(savol)
 #     if qiymat == 'exit':
 #         ishora = False
 #     else:
@@ -96,7 +96,7 @@ while son<=5: # toki son 5 dan kichik yoki teng ekan...
 #         print(son)
 
 # son = 0
-# while son<10:    
+# while son<10:
 #     if son%2!=0:
 #         continue
 #     else:
@@ -104,11 +104,9 @@ while son<=5: # toki son 5 dan kichik yoki teng ekan...
 #     son += 1
 
 # son = 1
-# while son>0: 
+# while son>0:
 #     son += 1
 #     if son%2!=0:
 #         continue
 #     else:
 #         print(son)
-    
-        

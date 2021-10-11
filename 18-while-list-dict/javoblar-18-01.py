@@ -9,11 +9,11 @@ Muallif: Anvar Narzullaev
 
 Web sahifa: https://python.sariq.dev
 """
-savat =[]
+savat = []
 while True:
     mahsulot = input("Savatga mahsulot qo'shing:")
     savat.append(mahsulot)
-    javob = input("Yana mahsulot qo\'shasizmi?(ha/yo'q)")
-    if javob != 'ha':
+    javob = input("Yana mahsulot qo'shasizmi?(ha/yo'q)")
+    if javob != "ha":
         break
-print('Dastur tugadi!')
+print("Dastur tugadi!")

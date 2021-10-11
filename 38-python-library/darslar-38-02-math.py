@@ -17,12 +17,12 @@ PI = math.pi
 # print(f"e ning qiymati: {E}")
 
 # # trigonometriya
-math.sin(math.pi/2)
+math.sin(math.pi / 2)
 math.cos(0)
 math.tan(PI)
 
 # radianlar va burchaklar o'rtasida konvertasiya
-print(math.degrees(math.pi/2))
+print(math.degrees(math.pi / 2))
 print(math.radians(90))
 
 # # logarifmlar
@@ -41,6 +41,6 @@ x = 81
 math.sqrt(x)
 
 # Darajaga oshirish
-math.pow(x,3) # x ning kubi
-math.pow(x,5) # x ning 5-darajasi
-math.pow(x,1/3) # x dan kub ildiz
+math.pow(x, 3)  # x ning kubi
+math.pow(x, 5)  # x ning 5-darajasi
+math.pow(x, 1 / 3)  # x dan kub ildiz

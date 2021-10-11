@@ -10,9 +10,9 @@ Muallif: Anvar Narzullaev
 Web sahifa: https://python.sariq.dev
 """
 
-ranglar = {'qizil', 'oq', 'yashil'}
-ranglar.add('sariq')
-ranglar.update(["ko'k", 'qora', 'pushti'])
+ranglar = {"qizil", "oq", "yashil"}
+ranglar.add("sariq")
+ranglar.update(["ko'k", "qora", "pushti"])
 
 # Umumiy elementlar
 set1 = {10, 20, 30, 40, 50}

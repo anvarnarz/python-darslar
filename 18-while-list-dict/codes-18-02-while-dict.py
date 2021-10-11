@@ -15,8 +15,8 @@ ishora = True
 while ishora:
     ism = input("Do'stingiz ismini kiriting: ")
     yosh = input(f"{ism.title()}ning yoshini kiriting: ")
-    dostlar[ism] = int(yosh)    
-    
+    dostlar[ism] = int(yosh)
+
     javob = input("Yana ma'lumot qo'shasizmi? (ha/yo'q)")
     if javob == "yo'q":
         ishora = False

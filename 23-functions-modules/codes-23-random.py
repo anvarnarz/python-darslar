@@ -11,7 +11,7 @@ Web sahifa: https://python.sariq.dev
 """
 import random as r
 
-#randint()
+# randint()
 # son = r.randint(10,50)
 # print(son)
 

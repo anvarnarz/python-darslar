@@ -12,7 +12,7 @@ Web sahifa: https://python.sariq.dev
 from pprint import pprint
 import json
 
-filename = 'bemor.json'
+filename = "bemor.json"
 with open(filename) as f:
     bemor = json.load(f)
 
@@ -20,6 +20,7 @@ with open(filename) as f:
 pprint(bemor)
 
 import requests
-r = requests.get('https://api.github.com')
+
+r = requests.get("https://api.github.com")
 
 pprint(r.json())

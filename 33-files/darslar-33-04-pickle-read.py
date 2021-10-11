@@ -11,7 +11,7 @@ Web sahifa: https://python.sariq.dev
 """
 import pickle
 
-with open('info','rb') as file:
+with open("info", "rb") as file:
     talaba1 = pickle.load(file)
     talaba2 = pickle.load(file)
 

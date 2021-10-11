@@ -11,9 +11,9 @@ if game2.gameOver:
     taxminPC = game2.getResult()
 
 
-if taxminUser<taxminPC:
-    popup("Tabriklayman!",f"Siz {taxminUser} ta taxmin bilan yutdingiz!")
-elif taxminUser>taxminPC:
-    popup("G'alaba!",f"Men {taxminPC} ta taxmin bilan yutdim!")
+if taxminUser < taxminPC:
+    popup("Tabriklayman!", f"Siz {taxminUser} ta taxmin bilan yutdingiz!")
+elif taxminUser > taxminPC:
+    popup("G'alaba!", f"Men {taxminPC} ta taxmin bilan yutdim!")
 else:
     popup("Durran", f"Ikkalamizda ham {taxminPC} ta taxmin.")

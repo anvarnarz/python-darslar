@@ -24,5 +24,5 @@ from uzwords import words
 
 # # Matnlar orasidan eng o'xshashini topish
 text = "талба"
-match = process.extractOne(text,words)
+match = process.extractOne(text, words)
 print(match)

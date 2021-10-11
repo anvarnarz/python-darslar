@@ -11,13 +11,13 @@ Web sahifa: https://python.sariq.dev
 """
 
 # To'plam yaratish
-sonlar = {1,2,3}
-ismlar = {'alijon','valijon','boqijon'}
+sonlar = {1, 2, 3}
+ismlar = {"alijon", "valijon", "boqijon"}
 mevalar = set()
-sonlar = {1,2,3,3,4,4,5,6}
+sonlar = {1, 2, 3, 3, 4, 4, 5, 6}
 print(sonlar)
 
 # Ro'yxatdan to'plamga o'tish
-mevalar = ['olma','anjir','olma','uzum','olma','uzum']
+mevalar = ["olma", "anjir", "olma", "uzum", "olma", "uzum"]
 mevalar = set(mevalar)
 print(mevalar)

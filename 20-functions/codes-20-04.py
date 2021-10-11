@@ -10,15 +10,17 @@ Muallif: Anvar Narzullaev
 Web sahifa: https://python.sariq.dev
 """
 
-def oraliq(min,max):
+
+def oraliq(min, max):
     sonlar = []
-    while min<max:
+    while min < max:
         sonlar.append(min)
         min += 1
     return sonlar
 
-print(oraliq(0,10))
-print(oraliq(10,21))
+
+print(oraliq(0, 10))
+print(oraliq(10, 21))
 
 # def oraliq(min,max,qadam=1):
 #     sonlar = []
