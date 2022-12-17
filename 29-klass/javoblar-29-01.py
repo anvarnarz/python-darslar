@@ -12,7 +12,7 @@ Web sahifa: https://python.sariq.dev
 
 
 class Car:
-    def __init___(self, make, model, rang, korobka, narh):
+    def __init__(self, make, model, rang, korobka, narh):
         self.make = make
         self.model = model
         self.rang = rang
