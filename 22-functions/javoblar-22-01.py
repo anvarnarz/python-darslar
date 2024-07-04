@@ -19,3 +19,11 @@ def multiply(*sonlar):
 
 
 print(multiply(4, 5, 6))
+
+# or 
+import math
+
+def kopaytma(*sonlar):
+    return math.prod(sonlar)
+
+print(kopaytma(4,5,6))
